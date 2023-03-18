@@ -1,0 +1,230 @@
+/*
+<p>Rent out anything you want</p>
+<p>No worries about items getting lost</p>
+<p>Online Payments Only</p>
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&family=Noto+Sans:wght@300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    color: #f2f2f2;
+    box-sizing: border-box;
+    font-family: 'Montserrat',sans-serif;
+  }
+
+  nav{
+    background: #333;
+    padding: 10px 40px 10px 70px;
+    border: 1px solid #000;
+    border-left:none ;
+    border-right: none;
+  }
+
+  nav ul{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  nav ul li.logo{
+  flex: 1;
+  font-size: 30px;
+  font-weight: 700;
+  }
+
+  nav ul div.items{
+    padding: 0 25px;
+    display: inline-flex;
+  }
+
+  nav ul .search-icon{
+    height: 40px;
+    width: 540px;
+    display: flex;
+   
+    border-radius: 10px;
+    
+  }
+
+  nav ul .search-icon input{
+    height: 100%;
+    width: 500px;
+    border: 0px solid white;
+    outline: none;
+    padding: 0 10px;
+    color: #7a7a7a94;
+    background-color: #948f8f50;
+    font-size: 16px;
+    border-radius: 10px 10px 10px 10px;
+  }
+  
+  nav ul button{
+    height: 42px;
+    width: 130px;
+    margin: 10px;
+    border-radius: 12px;
+    font-size: 16px;
+    padding: 0 10px;
+    background-color: #333;
+  }
+  
+  body {
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+
+.column {
+    float: left;
+    width: 100%;
+    padding: 0 10px;
+
+  }
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 60px;
+    text-align: left;
+    background-color: #948f8f50;
+    margin: 40px;
+    border-radius: 50px;
+    height: 588px;
+  }
+
+  .search-container{
+    margin: 40px;
+    text-align: left;
+  }
+
+
+
+.nav h2{
+    position: absolute;
+
+    size: 48px;
+    width: 335px;
+    height: 53px;
+    left: 105px;
+    top: 178px;
+  }
+
+
+
+  /*.rectangle{
+    position: absolute;
+    width: 105px;
+    height: 105px;
+    left: 100px;
+    top: 293px;
+    background: #FECB03;
+    border-radius: 100px;
+  }
+*/
+ h1{
+  margin: 100px;
+ }
+
+ .cards{
+  width: 346px;
+  height: 325px;
+  margin: 40px;
+  border-radius: 15px;
+  width: 25%;
+  background-color: #948f8f50;
+  display: inline-block;
+ }
+
+ 
+
+ .title{
+  size: 30px;
+  margin-left: 40px;
+  text-align: left;
+ }
+
+.title p{
+  text-align: left;
+  margin-left: 4px;
+  margin-right: 45px;
+}
+
+button{
+  height: 58px;
+  width: 130px;
+  background-color:  #FECB03;
+  font: 20px;
+  border: 0px solid #FECB03 ;
+  border-radius: 50px;
+  margin: 25px;
+  font-size: 15px;
+  margin-left: 140px;
+  padding: 20px;
+}
+
+
+/*FOOTER*/
+
+footer{
+  width: 100%;
+  height:320px;
+  background-color: #262626;
+ flex-direction: column;
+  color: white;
+}
+
+.container{
+  display: flex;
+  gap: 100px;
+  padding:80px;
+
+}
+
+.forent{
+  flex-grow: 1;
+  flex-basis: 100%;
+}
+
+.sitemap{
+  flex-grow: 1;
+  flex-basis: 40%;
+}
+
+.sitemap ul{
+  list-style-type: none;
+  line-height: 35px;
+}
+
+.sitemap a{
+  color: white;
+  text-decoration: none;
+}
+
+.socials{
+  flex-grow: 1;
+  flex-basis: 40%;
+}
+
+.socials ul{
+  list-style-type: none;
+  line-height: 35px;
+}
+
+.socials a{
+  color: white;
+  text-decoration: none;
+}
+
+.container h3{
+  margin-bottom: 20px;
+  font-size: 48px;
+}
+
+.container h4{
+  margin-bottom: 20px;
+  font-size: 32px;
+}
